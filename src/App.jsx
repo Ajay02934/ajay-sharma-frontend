@@ -158,7 +158,7 @@ function App() {
 
         <section className="marquee-strip" aria-label="Technology list">
           <div>
-            <span>REACT</span><i>✦</i><span>JAVASCRIPT</span><i>✦</i><span>CSS</span><i>✦</i><span>WORDPRESS</span><i>✦</i><span>API INTEGRATION</span><i>✦</i>
+            <span>REACT</span><i>✦</i><span>JAVASCRIPT</span><i>✦</i><span>CSS</span><i>✦</i><span>RESPONSIVE UI</span><i>✦</i><span>API INTEGRATION</span><i>✦</i>
           </div>
         </section>
 
@@ -268,7 +268,7 @@ function App() {
 
       <footer className="footer">
         <span>© 2026 Ajay Sharma</span>
-        <span>Frontend Developer · React · JavaScript</span>
+        <span>Frontend Developer · React · JavaScript · UI</span>
       </footer>
     </div>
   )
