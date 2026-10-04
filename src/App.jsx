@@ -8,36 +8,47 @@ const skills = [
   { name: 'JavaScript', level: 'Advanced', tag: 'Logic' },
   { name: 'HTML5 / CSS3', level: 'Advanced', tag: 'Web' },
   { name: 'REST API / AJAX', level: 'Advanced', tag: 'Data' },
-  { name: 'WordPress / ACF', level: 'Advanced', tag: 'CMS' },
-  { name: 'PHP / Laravel', level: 'Strong', tag: 'Backend' },
-  { name: 'MySQL', level: 'Strong', tag: 'Data' },
-  { name: 'Git / Docker', level: 'Strong', tag: 'Tools' },
+  { name: 'Responsive UI', level: 'Advanced', tag: 'UX' },
+  { name: 'UI / UX Implementation', level: 'Strong', tag: 'Design' },
+  { name: 'Git / Vite', level: 'Strong', tag: 'Tools' },
 ]
 
 const projects = [
   {
     number: '01',
+    title: 'Raghav Jyotish Ujjain',
+    type: 'Frontend · React · Responsive UI',
+    description:
+      'A polished service website concept for astrology and puja services in Ujjain, designed to make services, trust signals and enquiries easy to explore on every screen.',
+    features: ['Service sections', 'Mobile-first UI', 'CTA & enquiry flow'],
+    visual: 'jyotish',
+  },
+  {
+    number: '02',
+    title: 'Ujjain Travel',
+    type: 'Frontend · Travel UI · Responsive',
+    description:
+      'A travel-focused experience for discovering Ujjain, highlighting destinations, packages and enquiry actions with a clear, conversion-friendly interface.',
+    features: ['Travel cards', 'Destination UI', 'Responsive layout'],
+    visual: 'travel',
+  },
+  {
+    number: '03',
     title: 'Analytics Dashboard',
     type: 'React · Data UI',
     description:
       'A focused dashboard experience with clear KPI cards, interactive data areas and responsive layouts built for quick scanning.',
-    features: ['Responsive grid', 'Reusable components', 'API-ready structure'],
+    features: ['Responsive grid', 'Reusable components', 'API-ready UI'],
+    visual: 'analytics',
   },
   {
-    number: '02',
+    number: '04',
     title: 'Booking Experience',
-    type: 'React · JavaScript',
+    type: 'React · JavaScript · UX',
     description:
       'A conversion-first booking flow designed around simple steps, strong visual hierarchy and mobile-friendly interactions.',
     features: ['Multi-step UX', 'Form interactions', 'Mobile-first'],
-  },
-  {
-    number: '03',
-    title: 'Multisite Content UI',
-    type: 'WordPress · ACF',
-    description:
-      'A content-heavy publishing interface where structured CMS data is translated into consistent, polished frontend components.',
-    features: ['Dynamic content', 'ACF integration', 'Reusable sections'],
+    visual: 'booking',
   },
 ]
 
@@ -46,13 +57,13 @@ const experiences = [
     year: '2023 — Present',
     title: 'Web Developer',
     company: 'Product & Client Projects',
-    text: 'Building production websites and application interfaces across React, JavaScript, WordPress and Laravel, with a focus on clean UX and maintainable code.',
+    text: 'Building production websites and application interfaces with React, JavaScript, HTML and modern CSS, with a focus on clean UX, responsiveness and maintainable frontend code.',
   },
   {
     year: 'Earlier',
-    title: 'PHP / WordPress Developer',
+    title: 'Frontend Web Developer',
     company: 'Agency & Freelance Work',
-    text: 'Worked end-to-end on CMS implementations, custom themes, APIs, admin tools, performance fixes and responsive frontend experiences.',
+    text: 'Worked on responsive websites, interactive UI, API-driven screens, landing pages and frontend improvements across client projects.',
   },
 ]
 
