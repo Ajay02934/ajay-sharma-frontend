@@ -21,7 +21,7 @@ const projects = [
     description:
       'A service-focused website for astrology and puja services in Ujjain, designed with strong visual hierarchy, clear CTAs and responsive layouts.',
     features: ['Responsive UI', 'Service sections', 'Enquiry flow'],
-    image: '/projects/raghav-jyotish.jpg',
+    image: 'https://image.thum.io/get/width/1200/crop/760/https://raghavjyotishujjain.online',
   },
   {
     number: '02',
@@ -30,7 +30,7 @@ const projects = [
     description:
       'A travel booking experience for local rides, airport transfers and tour packages, with a conversion-focused booking form and mobile-friendly UI.',
     features: ['Booking UI', 'Form interactions', 'Responsive layout'],
-    image: '/projects/ujjain-travel.jpg',
+    image: 'https://image.thum.io/get/width/1200/crop/760/https://ujjaintravel.raghavjyotishujjain.online',
   },
   {
     number: '03',
@@ -39,7 +39,7 @@ const projects = [
     description:
       'A modern job-search dashboard with job discovery, applications, resumes, settings and search activity presented through a clean dark interface.',
     features: ['Dashboard UI', 'Data cards', 'Job workflow'],
-    image: '/projects/job-agent.jpg',
+    image: null,
   },
 ]
 
@@ -208,9 +208,16 @@ function App() {
             {projects.map((project) => (
               <article className="project-card reveal" key={project.number}>
                 <div className="project-number">{project.number}</div>
-                <div className="project-image-wrap">
-                  <img className="project-image" src={project.image} alt={`${project.title} website preview`} loading="lazy" />
-                </div>
+                {project.image ? (
+                  <div className="project-image-wrap">
+                    <img className="project-image" src={project.image} alt={`${project.title} website preview`} loading="lazy" />
+                  </div>
+                ) : (
+                  <div className="project-image-wrap project-dashboard-preview" aria-label="AI Job Search Agent dashboard preview">
+                    <div className="dash-top"><span>Job Agent</span><b>AI</b></div>
+                    <div className="dash-body"><aside></aside><div className="dash-content"><strong>Dashboard</strong><div className="dash-cards"><i></i><i></i><i></i><i></i></div><div className="dash-list"></div></div></div>
+                  </div>
+                )}
                 <div className="project-main">
                   <p className="project-type">{project.type}</p>
                   <h3>{project.title}</h3>
