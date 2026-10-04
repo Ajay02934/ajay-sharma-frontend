@@ -21,7 +21,7 @@ const projects = [
     description:
       'A service-focused website for astrology and puja services in Ujjain, designed with strong visual hierarchy, clear CTAs and responsive layouts.',
     features: ['Responsive UI', 'Service sections', 'Enquiry flow'],
-    image: 'https://image.thum.io/get/width/1200/crop/760/https://raghavjyotishujjain.online',
+    image: 'https://image.thum.io/get/width/1200/crop/760/noanimate/https://raghavjyotishujjain.online',
   },
   {
     number: '02',
@@ -30,7 +30,7 @@ const projects = [
     description:
       'A travel booking experience for local rides, airport transfers and tour packages, with a conversion-focused booking form and mobile-friendly UI.',
     features: ['Booking UI', 'Form interactions', 'Responsive layout'],
-    image: 'https://image.thum.io/get/width/1200/crop/760/https://ujjaintravel.raghavjyotishujjain.online',
+    image: 'https://image.thum.io/get/width/1200/crop/760/noanimate/https://ujjaintravel.raghavjyotishujjain.online',
   },
   {
     number: '03',
