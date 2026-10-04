@@ -46,8 +46,8 @@ const projects = [
 const experiences = [
   {
     year: '2023 — Present',
-    title: 'Web Developer',
-    company: 'Product & Client Projects',
+    title: 'Frontend Web Developer',
+    company: 'Frontend Development Projects',
     text: 'Building production websites and application interfaces with React, JavaScript, HTML and modern CSS, with a focus on clean UX, responsiveness and maintainable frontend code.',
   },
   {
