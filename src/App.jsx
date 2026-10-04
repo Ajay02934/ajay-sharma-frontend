@@ -17,38 +17,29 @@ const projects = [
   {
     number: '01',
     title: 'Raghav Jyotish Ujjain',
-    type: 'Frontend · React · Responsive UI',
+    type: 'Frontend · Responsive Website',
     description:
-      'A polished service website concept for astrology and puja services in Ujjain, designed to make services, trust signals and enquiries easy to explore on every screen.',
-    features: ['Service sections', 'Mobile-first UI', 'CTA & enquiry flow'],
-    visual: 'jyotish',
+      'A service-focused website for astrology and puja services in Ujjain, designed with strong visual hierarchy, clear CTAs and responsive layouts.',
+    features: ['Responsive UI', 'Service sections', 'Enquiry flow'],
+    image: '/projects/raghav-jyotish.jpg',
   },
   {
     number: '02',
     title: 'Ujjain Travel',
-    type: 'Frontend · Travel UI · Responsive',
+    type: 'Frontend · Travel Website',
     description:
-      'A travel-focused experience for discovering Ujjain, highlighting destinations, packages and enquiry actions with a clear, conversion-friendly interface.',
-    features: ['Travel cards', 'Destination UI', 'Responsive layout'],
-    visual: 'travel',
+      'A travel booking experience for local rides, airport transfers and tour packages, with a conversion-focused booking form and mobile-friendly UI.',
+    features: ['Booking UI', 'Form interactions', 'Responsive layout'],
+    image: '/projects/ujjain-travel.jpg',
   },
   {
     number: '03',
-    title: 'Analytics Dashboard',
-    type: 'React · Data UI',
+    title: 'AI Job Search Agent',
+    type: 'Frontend · Dashboard · Web App',
     description:
-      'A focused dashboard experience with clear KPI cards, interactive data areas and responsive layouts built for quick scanning.',
-    features: ['Responsive grid', 'Reusable components', 'API-ready UI'],
-    visual: 'analytics',
-  },
-  {
-    number: '04',
-    title: 'Booking Experience',
-    type: 'React · JavaScript · UX',
-    description:
-      'A conversion-first booking flow designed around simple steps, strong visual hierarchy and mobile-friendly interactions.',
-    features: ['Multi-step UX', 'Form interactions', 'Mobile-first'],
-    visual: 'booking',
+      'A modern job-search dashboard with job discovery, applications, resumes, settings and search activity presented through a clean dark interface.',
+    features: ['Dashboard UI', 'Data cards', 'Job workflow'],
+    image: '/projects/job-agent.jpg',
   },
 ]
 
@@ -173,10 +164,9 @@ function App() {
               quick to use and built to last.
             </p>
             <p>
-              My experience spans React and JavaScript frontend work, WordPress and ACF,
-              PHP/Laravel applications, REST APIs and responsive web development. That
-              full-stack perspective helps me build better frontend decisions — not just
-              prettier screens.
+              My experience spans React and JavaScript frontend work, responsive UI, REST APIs,
+              modern CSS and production web development. I focus on interfaces that are
+              fast, accessible, responsive and easy to maintain — not just pretty screens.
             </p>
             <div className="about-stats">
               <div><strong>5+</strong><span>Years in web development</span></div>
@@ -211,13 +201,16 @@ function App() {
               <p className="section-kicker">03 / Selected work</p>
               <h2>Built to solve,<br /><em>not just impress.</em></h2>
             </div>
-            <p className="heading-note">A few representative concepts inspired by the products and platforms I enjoy building.</p>
+            <p className="heading-note">Real project previews — local services, travel booking and an AI-powered job dashboard.</p>
           </div>
 
           <div className="project-list">
             {projects.map((project) => (
               <article className="project-card reveal" key={project.number}>
                 <div className="project-number">{project.number}</div>
+                <div className="project-image-wrap">
+                  <img className="project-image" src={project.image} alt={`${project.title} website preview`} loading="lazy" />
+                </div>
                 <div className="project-main">
                   <p className="project-type">{project.type}</p>
                   <h3>{project.title}</h3>
