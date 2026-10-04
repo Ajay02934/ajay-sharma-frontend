@@ -257,10 +257,9 @@ function App() {
             <p className="section-kicker">05 / Contact</p>
             <h2>Have a frontend<br /><em>problem to solve?</em></h2>
             <p>Let’s build something useful, polished and genuinely easy to use.</p>
-            <a className="contact-email" href="mailto:ajaysharmadev@gmail.com">ajaysharmadev@gmail.com <span>↗</span></a>
-            <div className="contact-links">
-              <a href="https://github.com/Ajay02934" target="_blank" rel="noreferrer">GitHub ↗</a>
-              <a href="https://www.linkedin.com/in/ajaysharma02934/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a className="contact-email" href="mailto:ajaysharmaas.094@gmail.com">ajaysharmaas.094@gmail.com <span>↗</span></a>
+            <div className="contact-phone">
+              <a href="tel:+917974639689">+91 7974639689</a>
             </div>
           </div>
         </section>
